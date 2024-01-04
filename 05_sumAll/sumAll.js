@@ -6,7 +6,7 @@ const sumAll = function (firstNum, secondNum) {
     return "ERROR";
   }
 
-  sum = 0;
+  let sum = 0;
   if (firstNum < secondNum) {
     for (let numToAdd = firstNum; numToAdd <= secondNum; numToAdd++) {
       sum += numToAdd;
